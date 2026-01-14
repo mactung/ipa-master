@@ -3,11 +3,29 @@
 import Link from 'next/link';
 import { ipaPairs } from '@/data/ipa-pairs';
 import { Star, Trophy, Zap, ChevronRight } from 'lucide-react';
+import { useRouter } from 'next/navigation';
 
 import { useSettings } from "@/context/SettingsContext";
 
 export default function Home() {
-  const { accent, setAccent } = useSettings();
+  const { accent, setAccent, lastPracticedUnitId, completedUnits } = useSettings();
+
+  const getSmartPracticeUnit = () => {
+    // 1. If we have a last practiced unit and it's NOT completed, resume it
+    if (lastPracticedUnitId && !completedUnits.includes(lastPracticedUnitId)) {
+      return lastPracticedUnitId;
+    }
+
+    // 2. If last unit is completed (or null), find the first uncompleted unit
+    const firstUncompleted = ipaPairs.find(p => !completedUnits.includes(p.id));
+    if (firstUncompleted) {
+      return firstUncompleted.id;
+    }
+
+    // 3. Fallback: all done? Review the first one or the last practiced one
+    return lastPracticedUnitId || ipaPairs[0].id;
+  };
+
 
   return (
     <div className="min-h-screen bg-slate-50 pb-20">
@@ -42,15 +60,22 @@ export default function Home() {
       <div className="p-6 space-y-6">
 
         {/* Hero Banner - Green-500 */}
-        <div className="bg-green-500 rounded-3xl p-6 text-white shadow-lg shadow-green-600/20 hover:translate-y-1 transition-all cursor-pointer active:translate-y-1 border-b-4 border-green-600 hover:border-b-0 active:border-b-0 active:mt-1">
+        {/* <Link
+          href={`/pair/${getSmartPracticeUnit()}`}
+          className="block bg-green-500 rounded-3xl p-6 text-white shadow-lg shadow-green-600/20 hover:translate-y-1 transition-all cursor-pointer active:translate-y-1 border-b-4 border-green-600 hover:border-b-0 active:border-b-0 active:mt-1"
+        >
           <div className="flex items-center justify-between">
             <div>
               <h2 className="text-xl font-extrabold mb-1">Start Practice</h2>
-              <p className="font-bold opacity-90 text-sm">Review your last mistake</p>
+              <p className="font-bold opacity-90 text-sm">
+                {lastPracticedUnitId && !completedUnits.includes(lastPracticedUnitId)
+                  ? "Resume your session"
+                  : "Start next lesson"}
+              </p>
             </div>
             <Zap size={32} className="fill-current text-yellow-300" />
           </div>
-        </div>
+        </Link> */}
 
         <div className="flex items-center justify-between mt-8 mb-2">
           <h3 className="font-extrabold text-slate-700 text-lg uppercase tracking-wider">Units</h3>

@@ -14,7 +14,7 @@ interface PracticeSessionProps {
 }
 
 export default function PracticeSession({ words, pairId }: PracticeSessionProps) {
-    const { accent } = useSettings();
+    const { accent, setLastPracticedUnitId, markUnitComplete } = useSettings();
 
     const router = useRouter();
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -25,6 +25,10 @@ export default function PracticeSession({ words, pairId }: PracticeSessionProps)
 
     const currentWord = words[currentIndex];
     const progress = ((currentIndex) / words.length) * 100;
+
+    useEffect(() => {
+        setLastPracticedUnitId(pairId);
+    }, [pairId, setLastPracticedUnitId]);
 
     useEffect(() => {
         if (audioRef.current) {
@@ -74,6 +78,7 @@ export default function PracticeSession({ words, pairId }: PracticeSessionProps)
                 setRepeatCount(0);
                 setStatus('playing');
             } else {
+                markUnitComplete(pairId);
                 setStatus('completed');
             }
         }, 1000);
