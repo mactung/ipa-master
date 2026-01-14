@@ -64,6 +64,226 @@ export const ipaPairs: IPAPair[] = [
         "phoneticUS": "/sɪt/",
         "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sit/sit__/sit__gb_1.mp3",
         "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sit/sit__/sit__us_1.mp3"
+      },
+      {
+        "text": "see",
+        "phoneticUK": "/siː/",
+        "phoneticUS": "/siː/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/see/see__/see__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/see/see__/see__us_1.mp3"
+      },
+      {
+        "text": "agree",
+        "phoneticUK": "/əˈɡriː/",
+        "phoneticUS": "/əˈɡriː/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/agr/agree/agree__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/agr/agree/agree__us_1.mp3"
+      },
+      {
+        "text": "team",
+        "phoneticUK": "/tiːm/",
+        "phoneticUS": "/tiːm/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/tea/team_/team__gb_3.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tea/team_/team__us_1.mp3"
+      },
+      {
+        "text": "field",
+        "phoneticUK": "/fiːld/",
+        "phoneticUS": "/fiːld/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fie/field/field__gb_3.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fie/field/field__us_1.mp3"
+      },
+      {
+        "text": "piece",
+        "phoneticUK": "/piːs/",
+        "phoneticUS": "/piːs/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pie/piece/piece__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pie/piece/piece__us_1.mp3"
+      },
+      {
+        "text": "these",
+        "phoneticUK": "/ðiːz/",
+        "phoneticUS": "/ðiːz/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/the/these/these__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/the/these/these__us_1.mp3"
+      },
+      {
+        "text": "meter",
+        "phoneticUK": "/ˈmiːtə(r)/",
+        "phoneticUS": "/ˈmiːtər/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/met/meter/meter__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/met/meter/meter__us_1.mp3"
+      },
+      {
+        "text": "secret",
+        "phoneticUK": "/ˈsiːkrət/",
+        "phoneticUS": "/ˈsiːkrət/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sec/secre/secret__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sec/secre/secret__us_1.mp3"
+      },
+      {
+        "text": "evening",
+        "phoneticUK": "/ˈiːvnɪŋ/",
+        "phoneticUS": "/ˈiːvnɪŋ/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/eve/eveni/evening__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eve/eveni/evening__us_1.mp3"
+      },
+      {
+        "text": "Peter"
+      },
+      {
+        "text": "museum",
+        "phoneticUK": "/mjuˈziːəm/",
+        "phoneticUS": "/mjuˈziːəm/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/mus/museu/museum__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mus/museu/museum__us_2.mp3"
+      },
+      {
+        "text": "key",
+        "phoneticUK": "/kiː/",
+        "phoneticUS": "/kiː/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/k/key/key__/key__gb_3.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/k/key/key__/key__us_1.mp3"
+      },
+      {
+        "text": "ski",
+        "phoneticUK": "/skiː/",
+        "phoneticUS": "/skiː/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/ski/ski__/ski__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/ski/ski__/ski__us_1.mp3"
+      },
+      {
+        "text": "kilo",
+        "phoneticUK": "/ˈkiːləʊ/",
+        "phoneticUS": "/ˈkiːləʊ/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/k/kil/kilo_/kilo__gb_4.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/k/kil/kilo_/kilo__us_1.mp3"
+      },
+      {
+        "text": "pizza",
+        "phoneticUK": "/ˈpiːtsə/",
+        "phoneticUS": "/ˈpiːtsə/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/piz/pizza/pizza__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/piz/pizza/pizza__us_1.mp3"
+      },
+      {
+        "text": "police",
+        "phoneticUK": "/pəˈliːs/",
+        "phoneticUS": "/pəˈliːs/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pol/polic/police__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pol/polic/police__us_1.mp3"
+      },
+      {
+        "text": "machine",
+        "phoneticUK": "/məˈʃiːn/",
+        "phoneticUS": "/məˈʃiːn/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/mac/machi/machine__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mac/machi/machine__us_1.mp3"
+      },
+      {
+        "text": "magazine",
+        "phoneticUK": "/ˌmæɡəˈziːn/",
+        "phoneticUS": "/ˈmæɡəziːn/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/mag/magaz/magazine__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mag/magaz/magazine__us_1_rr.mp3"
+      },
+      {
+        "text": "people",
+        "phoneticUK": "/ˈpiːpl/",
+        "phoneticUS": "/ˈpiːpl/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/peo/peopl/people__gb_4.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/peo/peopl/people__us_4.mp3"
+      },
+      {
+        "text": "if",
+        "phoneticUK": "/ɪf/",
+        "phoneticUS": "/ɪf/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/if_/if__g/if__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/if_/if__u/if__us_1.mp3"
+      },
+      {
+        "text": "listen",
+        "phoneticUK": "/ˈlɪsn/",
+        "phoneticUS": "/ˈlɪsn/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/l/lis/liste/listen__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lis/liste/listen__us_1.mp3"
+      },
+      {
+        "text": "miss",
+        "phoneticUK": "/mɪs/",
+        "phoneticUS": "/mɪs/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/mis/miss_/miss__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mis/miss_/miss__us_1.mp3"
+      },
+      {
+        "text": "dinner",
+        "phoneticUK": "/ˈdɪnə(r)/",
+        "phoneticUS": "/ˈdɪnər/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/din/dinne/dinner__gb_3.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/din/dinne/dinner__us_3.mp3"
+      },
+      {
+        "text": "swim",
+        "phoneticUK": "/swɪm/",
+        "phoneticUS": "/swɪm/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/swi/swim_/swim__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/swi/swim_/swim__us_1.mp3"
+      },
+      {
+        "text": "busy",
+        "phoneticUK": "/ˈbɪzi/",
+        "phoneticUS": "/ˈbɪzi/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bus/busy_/busy__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bus/busy_/busy__us_2.mp3"
+      },
+      {
+        "text": "business",
+        "phoneticUK": "/ˈbɪznəs/",
+        "phoneticUS": "/ˈbɪznəs/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bus/busin/business__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bus/busin/business__us_4.mp3"
+      },
+      {
+        "text": "building",
+        "phoneticUK": "/ˈbɪldɪŋ/",
+        "phoneticUS": "/ˈbɪldɪŋ/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bui/build/building__gb_3.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bui/build/building__us_3.mp3"
+      },
+      {
+        "text": "system",
+        "phoneticUK": "/ˈsɪstəm/",
+        "phoneticUS": "/ˈsɪstəm/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sys/syste/system__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sys/syste/system__us_1.mp3"
+      },
+      {
+        "text": "happy",
+        "phoneticUK": "/ˈhæpi/",
+        "phoneticUS": "/ˈhæpi/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/hap/happy/happy__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hap/happy/happy__us_2.mp3"
+      },
+      {
+        "text": "coffee",
+        "phoneticUK": "/ˈkɒfi/",
+        "phoneticUS": "/ˈkɔːfi/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/cof/coffe/coffee__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cof/coffe/coffee__us_1_rr.mp3"
+      },
+      {
+        "text": "sixty",
+        "phoneticUK": "/ˈsɪksti/",
+        "phoneticUS": "/ˈsɪksti/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/six/sixty/sixty__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/six/sixty/sixty__us_1.mp3"
+      },
+      {
+        "text": "fifty",
+        "phoneticUK": "/ˈfɪfti/",
+        "phoneticUS": "/ˈfɪfti/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fif/fifty/fifty__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fif/fifty/fifty__us_2.mp3"
       }
     ]
   },
@@ -115,6 +335,167 @@ export const ipaPairs: IPAPair[] = [
         "phoneticUS": "/lʊk/",
         "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/l/loo/look_/look__gb_1.mp3",
         "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/loo/look_/look__us_1.mp3"
+      },
+      {
+        "text": "too",
+        "phoneticUK": "/tuː/",
+        "phoneticUS": "/tuː/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/too/too__/too__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/too/too__/too__us_1.mp3"
+      },
+      {
+        "text": "food",
+        "phoneticUK": "/fuːd/",
+        "phoneticUS": "/fuːd/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/foo/food_/food__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/foo/food_/food__us_1.mp3"
+      },
+      {
+        "text": "group",
+        "phoneticUK": "/ɡruːp/",
+        "phoneticUS": "/ɡruːp/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/g/gro/group/group__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gro/group/group__us_1.mp3"
+      },
+      {
+        "text": "shoe",
+        "phoneticUK": "/ʃuː/",
+        "phoneticUS": "/ʃuː/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sho/shoe_/shoe__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sho/shoe_/shoe__us_1.mp3"
+      },
+      {
+        "text": "blue",
+        "phoneticUK": "/bluː/",
+        "phoneticUS": "/bluː/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/blu/blue_/blue__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/blu/blue_/blue__us_1.mp3"
+      },
+      {
+        "text": "true",
+        "phoneticUK": "/truː/",
+        "phoneticUS": "/truː/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/tru/true_/true__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tru/true_/true__us_1.mp3"
+      },
+      {
+        "text": "drew",
+        "phoneticUK": "/druː/",
+        "phoneticUS": "/druː/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/dre/drew_/drew__gb_3.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dre/drew_/drew__us_1.mp3"
+      },
+      {
+        "text": "blew",
+        "phoneticUK": "/bluː/",
+        "phoneticUS": "/bluː/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/ble/blew_/blew__gb_3.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/ble/blew_/blew__us_1.mp3"
+      },
+      {
+        "text": "threw",
+        "phoneticUK": "/θruː/",
+        "phoneticUS": "/θruː/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/thr/threw/threw__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/thr/threw/threw__us_1.mp3"
+      },
+      {
+        "text": "flew",
+        "phoneticUK": "/fluː/",
+        "phoneticUS": "/fluː/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fle/flew_/flew__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fle/flew_/flew__us_1.mp3"
+      },
+      {
+        "text": "two",
+        "phoneticUK": "/tuː/",
+        "phoneticUS": "/tuː/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/two/two__/two__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/two/two__/two__us_1.mp3"
+      },
+      {
+        "text": "fruit",
+        "phoneticUK": "/fruːt/",
+        "phoneticUS": "/fruːt/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fru/fruit/fruit__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fru/fruit/fruit__us_1.mp3"
+      },
+      {
+        "text": "juice",
+        "phoneticUK": "/dʒuːs/",
+        "phoneticUS": "/dʒuːs/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/j/jui/juice/juice__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/j/jui/juice/juice__us_1.mp3"
+      },
+      {
+        "text": "you",
+        "phoneticUK": "/ju//juː/",
+        "phoneticUS": "/jə//juː/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/y/you/you__/you__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/y/you/you__/you__us_1_rr.mp3"
+      },
+      {
+        "text": "music",
+        "phoneticUK": "/ˈmjuːzɪk/",
+        "phoneticUS": "/ˈmjuːzɪk/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/mus/music/music__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mus/music/music__us_2.mp3"
+      },
+      {
+        "text": "cute",
+        "phoneticUK": "/kjuːt/",
+        "phoneticUS": "/kjuːt/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/cut/cute_/cute__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cut/cute_/cute__us_1.mp3"
+      },
+      {
+        "text": "sugar",
+        "phoneticUK": "/ˈʃʊɡə(r)/",
+        "phoneticUS": "/ˈʃʊɡər/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sug/sugar/sugar__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sug/sugar/sugar__us_2.mp3"
+      },
+      {
+        "text": "sure",
+        "phoneticUK": "/ʃʊə(r)//ʃɔː(r)/",
+        "phoneticUS": "/ʃʊr/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sur/sure_/sure__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sur/sure_/sure__us_1_rr.mp3"
+      },
+      {
+        "text": "book",
+        "phoneticUK": "/bʊk/",
+        "phoneticUS": "/bʊk/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/boo/book_/book__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/boo/book_/book__us_1.mp3"
+      },
+      {
+        "text": "good",
+        "phoneticUK": "/ɡʊd/",
+        "phoneticUS": "/ɡʊd/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/g/goo/good_/good__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/goo/good_/good__us_1.mp3"
+      },
+      {
+        "text": "would",
+        "phoneticUK": "/wʊd//wəd//əd/",
+        "phoneticUS": "/wʊd//wəd//əd/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/wou/would/would__gb_3.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wou/would/would__us_8_rr.mp3"
+      },
+      {
+        "text": "could",
+        "phoneticUK": "/kəd//kʊd/",
+        "phoneticUS": "/kəd//kʊd/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/cou/could/could__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cou/could/could__us_3_rr.mp3"
+      },
+      {
+        "text": "woman",
+        "phoneticUK": "/ˈwʊmən/",
+        "phoneticUS": "/ˈwʊmən/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/wom/woman/woman__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wom/woman/woman__us_1.mp3"
       }
     ]
   },
@@ -268,6 +649,188 @@ export const ipaPairs: IPAPair[] = [
         "phoneticUS": "/bɑːrn/",
         "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bar/barn_/barn__gb_2.mp3",
         "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bar/barn_/barn__us_1.mp3"
+      },
+      {
+        "text": "bar",
+        "phoneticUK": "/bɑː(r)/",
+        "phoneticUS": "/bɑːr/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bar/bar__/bar__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bar/bar__/bar__us_1.mp3"
+      },
+      {
+        "text": "car",
+        "phoneticUK": "/kɑː(r)/",
+        "phoneticUS": "/kɑːr/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/car/car__/car__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/car/car__/car__us_2.mp3"
+      },
+      {
+        "text": "card",
+        "phoneticUK": "/kɑːd/",
+        "phoneticUS": "/kɑːrd/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/car/card_/card__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/car/card_/card__us_1.mp3"
+      },
+      {
+        "text": "far",
+        "phoneticUK": "/fɑː(r)/",
+        "phoneticUS": "/fɑːr/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/far/far__/far__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/far/far__/far__us_1.mp3"
+      },
+      {
+        "text": "park",
+        "phoneticUK": "/pɑːk/",
+        "phoneticUS": "/pɑːrk/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/par/park_/park__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/par/park_/park__us_1.mp3"
+      },
+      {
+        "text": "father",
+        "phoneticUK": "/ˈfɑːðə(r)/",
+        "phoneticUS": "/ˈfɑːðər/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fat/fathe/father__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fat/fathe/father__us_2.mp3"
+      },
+      {
+        "text": "heart",
+        "phoneticUK": "/hɑːt/",
+        "phoneticUS": "/hɑːrt/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/hea/heart/heart__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hea/heart/heart__us_1.mp3"
+      },
+      {
+        "text": "bus",
+        "phoneticUK": "/bʌs/",
+        "phoneticUS": "/bʌs/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bus/bus__/bus__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bus/bus__/bus__us_1.mp3"
+      },
+      {
+        "text": "cup",
+        "phoneticUK": "/kʌp/",
+        "phoneticUS": "/kʌp/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/cup/cup__/cup__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cup/cup__/cup__us_1.mp3"
+      },
+      {
+        "text": "luck",
+        "phoneticUK": "/lʌk/",
+        "phoneticUS": "/lʌk/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/l/luc/luck_/luck__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/luc/luck_/luck__us_1.mp3"
+      },
+      {
+        "text": "number",
+        "phoneticUK": "/ˈnʌmbə(r)/",
+        "phoneticUS": "/ˈnʌmbər/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/n/num/numbe/number__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/num/numbe/number__us_1.mp3"
+      },
+      {
+        "text": "run",
+        "phoneticUK": "/rʌn/",
+        "phoneticUS": "/rʌn/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/r/run/run__/run__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/run/run__/run__us_1.mp3"
+      },
+      {
+        "text": "study",
+        "phoneticUK": "/ˈstʌdi/",
+        "phoneticUS": "/ˈstʌdi/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/stu/study/study__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/stu/study/study__us_1.mp3"
+      },
+      {
+        "text": "uncle",
+        "phoneticUK": "/ˈʌŋkl/",
+        "phoneticUS": "/ˈʌŋkl/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/u/unc/uncle/uncle__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/unc/uncle/uncle__us_1.mp3"
+      },
+      {
+        "text": "sun",
+        "phoneticUK": "/sʌn/",
+        "phoneticUS": "/sʌn/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sun/sun__/sun__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sun/sun__/sun__us_1.mp3"
+      },
+      {
+        "text": "son",
+        "phoneticUK": "/sʌn/",
+        "phoneticUS": "/sʌn/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/son/son__/son__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/son/son__/son__us_1.mp3"
+      },
+      {
+        "text": "front",
+        "phoneticUK": "/frʌnt/",
+        "phoneticUS": "/frʌnt/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fro/front/front__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fro/front/front__us_1.mp3"
+      },
+      {
+        "text": "Monday",
+        "phoneticUK": "/ˈmʌndeɪ//ˈmʌndi/",
+        "phoneticUS": "/ˈmʌndeɪ/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/mon/monda/monday__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mon/monda/monday__us_1.mp3"
+      },
+      {
+        "text": "mother",
+        "phoneticUK": "/ˈmʌðə(r)/",
+        "phoneticUS": "/ˈmʌðər/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/mot/mothe/mother__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mot/mothe/mother__us_1.mp3"
+      },
+      {
+        "text": "color",
+        "phoneticUK": "/ˈkʌlə(r)/",
+        "phoneticUS": "/ˈkʌlər/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/col/color/color__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/col/color/color__us_1.mp3"
+      },
+      {
+        "text": "come",
+        "phoneticUK": "/kʌm/",
+        "phoneticUS": "/kʌm/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/com/come_/come__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/come_/come__us_1.mp3"
+      },
+      {
+        "text": "nothing",
+        "phoneticUK": "/ˈnʌθɪŋ/",
+        "phoneticUS": "/ˈnʌθɪŋ/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/n/not/nothi/nothing__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/not/nothi/nothing__us_1.mp3"
+      },
+      {
+        "text": "one",
+        "phoneticUK": "/wʌn/",
+        "phoneticUS": "/wʌn/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/o/one/one__/one__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/one/one__/one__us_1.mp3"
+      },
+      {
+        "text": "money",
+        "phoneticUK": "/ˈmʌni/",
+        "phoneticUS": "/ˈmʌni/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/mon/money/money__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mon/money/money__us_1.mp3"
+      },
+      {
+        "text": "honey",
+        "phoneticUK": "/ˈhʌni/",
+        "phoneticUS": "/ˈhʌni/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/hon/honey/honey__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hon/honey/honey__us_1.mp3"
+      },
+      {
+        "text": "what",
+        "phoneticUK": "/wɒt/",
+        "phoneticUS": "/wʌt/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/wha/what_/what__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wha/what_/what__us_1.mp3"
       }
     ]
   },
@@ -319,6 +882,55 @@ export const ipaPairs: IPAPair[] = [
         "phoneticUS": "/spɔːrt/",
         "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/spo/sport/sport__gb_1.mp3",
         "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/spo/sport/sport__us_1.mp3"
+      },
+      {
+        "text": "bottle",
+        "phoneticUK": "/ˈbɒtl/",
+        "phoneticUS": "/ˈbɑːtl/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bot/bottl/bottle__gb_3.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bot/bottl/bottle__us_1.mp3"
+      },
+      {
+        "text": "box",
+        "phoneticUK": "/bɒks/",
+        "phoneticUS": "/bɑːks/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/box/box__/box__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/box/box__/box__us_1.mp3"
+      },
+      {
+        "text": "shop",
+        "phoneticUK": "/ʃɒp/",
+        "phoneticUS": "/ʃɑːp/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sho/shop_/shop__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sho/shop_/shop__us_1.mp3"
+      },
+      {
+        "text": "got",
+        "phoneticUK": "/ɡɒt/",
+        "phoneticUS": "/ɡɑːt/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/g/got/got__/got__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/got/got__/got__us_1.mp3"
+      },
+      {
+        "text": "holiday",
+        "phoneticUK": "/ˈhɒlədeɪ//ˈhɒlədi/",
+        "phoneticUS": "/ˈhɑːlədeɪ/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/hol/holid/holiday__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hol/holid/holiday__us_1.mp3"
+      },
+      {
+        "text": "quality",
+        "phoneticUK": "/ˈkwɒləti/",
+        "phoneticUS": "/ˈkwɑːləti/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/q/qua/quali/quality__gb_3.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/q/qua/quali/quality__us_2.mp3"
+      },
+      {
+        "text": "want",
+        "phoneticUK": "/wɒnt/",
+        "phoneticUS": "/wɑːnt/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/wan/want_/want__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wan/want_/want__us_1_rr.mp3"
       }
     ]
   },
@@ -845,6 +1457,308 @@ export const ipaPairs: IPAPair[] = [
         "phoneticUS": "/fraɪ/",
         "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fry/fry__/fry__gb_1.mp3",
         "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fry/fry__/fry__us_1.mp3"
+      }
+    ]
+  },
+  {
+    "id": "schwa-vs-nurse",
+    "name": "Schwa 'ə' vs Long '3:'",
+    "sound1": "ə",
+    "sound2": "3:",
+    "description": "Schwa 'ə' (about) vs Long '3:' (bird)",
+    "examples": [
+      {
+        "text": "away",
+        "phoneticUK": "/əˈweɪ/",
+        "phoneticUS": "/əˈweɪ/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/awa/away_/away__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/awa/away_/away__us_1.mp3"
+      },
+      {
+        "text": "banana",
+        "phoneticUK": "/bəˈnɑːnə/",
+        "phoneticUS": "/bəˈnænə/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/ban/banan/banana__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/ban/banan/banana__us_2.mp3"
+      },
+      {
+        "text": "woman",
+        "phoneticUK": "/ˈwʊmən/",
+        "phoneticUS": "/ˈwʊmən/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/wom/woman/woman__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wom/woman/woman__us_1.mp3"
+      },
+      {
+        "text": "sugar",
+        "phoneticUK": "/ˈʃʊɡə(r)/",
+        "phoneticUS": "/ˈʃʊɡər/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sug/sugar/sugar__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sug/sugar/sugar__us_2.mp3"
+      },
+      {
+        "text": "are",
+        "phoneticUK": "/ə(r)//ɑː(r)/",
+        "phoneticUS": "/ər//ɑːr/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/are/are__/are__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/are/are__/are__us_1_rr.mp3"
+      },
+      {
+        "text": "about",
+        "phoneticUK": "/əˈbaʊt/",
+        "phoneticUS": "/əˈbaʊt/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/abo/about/about__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/abo/about/about__us_1.mp3"
+      },
+      {
+        "text": "paper",
+        "phoneticUK": "/ˈpeɪpə(r)/",
+        "phoneticUS": "/ˈpeɪpər/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pap/paper/paper__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pap/paper/paper__us_3.mp3"
+      },
+      {
+        "text": "under",
+        "phoneticUK": "/ˈʌndə(r)/",
+        "phoneticUS": "/ˈʌndər/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/u/und/under/under__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/und/under/under__us_1.mp3"
+      },
+      {
+        "text": "the",
+        "phoneticUK": "/ðə//ði//ðiː/",
+        "phoneticUS": "/ðə//ði//ðiː/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/the/the__/the__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/the/the__/the__us_1_rr.mp3"
+      },
+      {
+        "text": "police",
+        "phoneticUK": "/pəˈliːs/",
+        "phoneticUS": "/pəˈliːs/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pol/polic/police__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pol/polic/police__us_1.mp3"
+      },
+      {
+        "text": "doctor",
+        "phoneticUK": "/ˈdɒktə(r)/",
+        "phoneticUS": "/ˈdɑːktər/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/doc/docto/doctor__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/doc/docto/doctor__us_2.mp3"
+      },
+      {
+        "text": "correct",
+        "phoneticUK": "/kəˈrekt/",
+        "phoneticUS": "/kəˈrekt/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/cor/corre/correct__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cor/corre/correct__us_1.mp3"
+      },
+      {
+        "text": "from",
+        "phoneticUK": "/frəm//frɒm/",
+        "phoneticUS": "/frəm//frʌm//frɑːm/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fro/from_/from__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fro/from_/from__us_1_rr.mp3"
+      },
+      {
+        "text": "to",
+        "phoneticUK": "/tə//tu//tuː/",
+        "phoneticUS": "/tə//tu//tuː/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/to_/to__g/to__gb_7.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/to_/to__u/to__us_1_rr.mp3"
+      },
+      {
+        "text": "of",
+        "phoneticUK": "/əv//ɒv/",
+        "phoneticUS": "/əv//ʌv/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/o/of_/of__g/of__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/of_/of__u/of__us_1_rr.mp3"
+      },
+      {
+        "text": "support",
+        "phoneticUK": "/səˈpɔːt/",
+        "phoneticUS": "/səˈpɔːrt/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sup/suppo/support__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sup/suppo/support__us_1.mp3"
+      },
+      {
+        "text": "figure",
+        "phoneticUK": "/ˈfɪɡə(r)/",
+        "phoneticUS": "/ˈfɪɡjər/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fig/figur/figure__gb_3.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fig/figur/figure__us_2.mp3"
+      },
+      {
+        "text": "ability",
+        "phoneticUK": "/əˈbɪləti/",
+        "phoneticUS": "/əˈbɪləti/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/abi/abili/ability__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/abi/abili/ability__us_4.mp3"
+      },
+      {
+        "text": "possibility",
+        "phoneticUK": "/ˌpɒsəˈbɪləti/",
+        "phoneticUS": "/ˌpɑːsəˈbɪləti/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pos/possi/possibility__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pos/possi/possibility__us_4.mp3"
+      },
+      {
+        "text": "responsibility",
+        "phoneticUK": "/rɪˌspɒnsəˈbɪləti/",
+        "phoneticUS": "/rɪˌspɑːnsəˈbɪləti/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/r/res/respo/responsibility__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/res/respo/responsibility__us_5.mp3"
+      },
+      {
+        "text": "community",
+        "phoneticUK": "/kəˈmjuːnəti/",
+        "phoneticUS": "/kəˈmjuːnəti/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/com/commu/community__gb_3.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/commu/community__us_2.mp3"
+      },
+      {
+        "text": "bird",
+        "phoneticUK": "/bɜːd/",
+        "phoneticUS": "/bɜːrd/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bir/bird_/bird__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bir/bird_/bird__us_1.mp3"
+      },
+      {
+        "text": "first",
+        "phoneticUK": "/fɜːst/",
+        "phoneticUS": "/fɜːrst/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fir/first/first__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fir/first/first__us_1.mp3"
+      },
+      {
+        "text": "circle",
+        "phoneticUK": "/ˈsɜːkl/",
+        "phoneticUS": "/ˈsɜːrkl/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/cir/circl/circle__gb_3.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cir/circl/circle__us_2.mp3"
+      },
+      {
+        "text": "girl",
+        "phoneticUK": "/ɡɜːl/",
+        "phoneticUS": "/ɡɜːrl/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/g/gir/girl_/girl__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gir/girl_/girl__us_1.mp3"
+      },
+      {
+        "text": "word",
+        "phoneticUK": "/wɜːd/",
+        "phoneticUS": "/wɜːrd/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/wor/word_/word__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wor/word_/word__us_1.mp3"
+      },
+      {
+        "text": "work",
+        "phoneticUK": "/wɜːk/",
+        "phoneticUS": "/wɜːrk/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/wor/work_/work__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wor/work_/work__us_1.mp3"
+      },
+      {
+        "text": "world",
+        "phoneticUK": "/wɜːld/",
+        "phoneticUS": "/wɜːrld/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/wor/world/world__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wor/world/world__us_1.mp3"
+      },
+      {
+        "text": "worse",
+        "phoneticUK": "/wɜːs/",
+        "phoneticUS": "/wɜːrs/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/wor/worse/worse__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wor/worse/worse__us_1.mp3"
+      },
+      {
+        "text": "worst",
+        "phoneticUK": "/wɜːst/",
+        "phoneticUS": "/wɜːrst/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/wor/worst/worst__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wor/worst/worst__us_1.mp3"
+      },
+      {
+        "text": "turn",
+        "phoneticUK": "/tɜːn/",
+        "phoneticUS": "/tɜːrn/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/tur/turn_/turn__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tur/turn_/turn__us_1.mp3"
+      },
+      {
+        "text": "church",
+        "phoneticUK": "/tʃɜːtʃ/",
+        "phoneticUS": "/tʃɜːrtʃ/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/chu/churc/church__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/chu/churc/church__us_1.mp3"
+      },
+      {
+        "text": "journey",
+        "phoneticUK": "/ˈdʒɜːni/",
+        "phoneticUS": "/ˈdʒɜːrni/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/j/jou/journ/journey__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/j/jou/journ/journey__us_1.mp3"
+      },
+      {
+        "text": "nerve",
+        "phoneticUK": "/nɜːv/",
+        "phoneticUS": "/nɜːrv/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/n/ner/nerve/nerve__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/ner/nerve/nerve__us_1.mp3"
+      },
+      {
+        "text": "service",
+        "phoneticUK": "/ˈsɜːvɪs/",
+        "phoneticUS": "/ˈsɜːrvɪs/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/ser/servi/service__gb_2.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/ser/servi/service__us_3.mp3"
+      },
+      {
+        "text": "Germany"
+      },
+      {
+        "text": "prefer",
+        "phoneticUK": "/prɪˈfɜː(r)/",
+        "phoneticUS": "/prɪˈfɜːr/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pre/prefe/prefer__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pre/prefe/prefer__us_3.mp3"
+      },
+      {
+        "text": "dessert",
+        "phoneticUK": "/dɪˈzɜːt/",
+        "phoneticUS": "/dɪˈzɜːrt/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/des/desse/dessert__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/des/desse/dessert__us_1.mp3"
+      },
+      {
+        "text": "university",
+        "phoneticUK": "/ˌjuːnɪˈvɜːsəti/",
+        "phoneticUS": "/ˌjuːnɪˈvɜːrsəti/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/u/uni/unive/university__gb_3.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/uni/unive/university__us_1.mp3"
+      },
+      {
+        "text": "early",
+        "phoneticUK": "/ˈɜːli/",
+        "phoneticUS": "/ˈɜːrli/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/ear/early/early__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ear/early/early__us_1.mp3"
+      },
+      {
+        "text": "earth",
+        "phoneticUK": "/ɜːθ/",
+        "phoneticUS": "/ɜːrθ/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/ear/earth/earth__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ear/earth/earth__us_1.mp3"
+      },
+      {
+        "text": "heard"
+      },
+      {
+        "text": "learn",
+        "phoneticUK": "/lɜːn/",
+        "phoneticUS": "/lɜːrn/",
+        "audioUK": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/l/lea/learn/learn__gb_1.mp3",
+        "audioUS": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lea/learn/learn__us_1.mp3"
       }
     ]
   }
