@@ -10,10 +10,10 @@ import { useSettings } from '@/context/SettingsContext';
 
 interface PracticeSessionProps {
     words: Word[];
-    pairId: string;
+    lessonId: string;
 }
 
-export default function PracticeSession({ words, pairId }: PracticeSessionProps) {
+export default function PracticeSession({ words, lessonId }: PracticeSessionProps) {
     const { accent, setLastPracticedUnitId, markUnitComplete } = useSettings();
 
     const router = useRouter();
@@ -27,8 +27,8 @@ export default function PracticeSession({ words, pairId }: PracticeSessionProps)
     const progress = ((currentIndex) / words.length) * 100;
 
     useEffect(() => {
-        setLastPracticedUnitId(pairId);
-    }, [pairId, setLastPracticedUnitId]);
+        setLastPracticedUnitId(lessonId);
+    }, [lessonId, setLastPracticedUnitId]);
 
     useEffect(() => {
         if (audioRef.current) {
@@ -78,7 +78,7 @@ export default function PracticeSession({ words, pairId }: PracticeSessionProps)
                 setRepeatCount(0);
                 setStatus('playing');
             } else {
-                markUnitComplete(pairId);
+                markUnitComplete(lessonId);
                 setStatus('completed');
             }
         }, 1000);
@@ -98,7 +98,7 @@ export default function PracticeSession({ words, pairId }: PracticeSessionProps)
                 </div>
 
                 <Link
-                    href={`/pair/${pairId}`}
+                    href={`/lesson/${lessonId}`}
                     className="w-full bg-green-500 text-white py-4 rounded-2xl font-extrabold text-lg border-b-4 border-green-600 hover:bg-green-600 active:border-b-0 active:translate-y-1 transition-all flex items-center justify-center"
                 >
                     CONTINUE
@@ -112,7 +112,7 @@ export default function PracticeSession({ words, pairId }: PracticeSessionProps)
 
             {/* Header */}
             <div className="px-6 pt-6 pb-2 flex-none flex items-center gap-4">
-                <Link href={`/pair/${pairId}`} className="text-slate-300 hover:text-slate-400">
+                <Link href={`/lesson/${lessonId}`} className="text-slate-300 hover:text-slate-400">
                     <X size={28} strokeWidth={3} />
                 </Link>
                 <div className="h-4 flex-1 bg-slate-100 rounded-full overflow-hidden">

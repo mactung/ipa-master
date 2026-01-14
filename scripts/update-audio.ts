@@ -1,54 +1,49 @@
 import fs from 'fs';
 import path from 'path';
-import { ipaPairs, IPAPair, Word } from '../src/data/ipa-pairs';
+import { units, Unit, Lesson, Word } from '../src/data/units';
 import { crawlOxfordWord } from '../src/lib/oxford-crawler';
 
 async function updateAudio() {
     console.log("Starting audio update...");
-    const updatedPairs: IPAPair[] = [];
+    const updatedUnits: Unit[] = [];
 
-    for (const pair of ipaPairs) {
-        console.log(`Processing pair: ${pair.id}`);
-        // Create a deep copy of examples
-        const newExamples: Word[] = [];
+    for (const unit of units) {
+        console.log(`Processing unit: ${unit.id}`);
+        const updatedLessons: Lesson[] = [];
 
-        for (const word of pair.examples) {
-            console.log(`  Crawling word: ${word.text}`);
-            if (word.audioUK && word.audioUS) {
-                console.log(`    Audio already exists, skipping.`);
-                newExamples.push(word);
-                continue;
+        for (const lesson of unit.lessons) {
+            console.log(`  Processing lesson: ${lesson.id}`);
+            const newWords: Word[] = [];
+
+            for (const word of lesson.words) {
+                console.log(`    Crawling word: ${word.text}`);
+                if (word.audioUK && word.audioUS) {
+                    // console.log(`      Audio already exists, skipping.`);
+                    newWords.push(word);
+                    continue;
+                }
+
+                // Wait a bit to be nice to the server
+                await new Promise(r => setTimeout(r, 500));
+
+                try {
+                    const result = await crawlOxfordWord(word.text);
+                    newWords.push({
+                        ...word,
+                        phoneticUK: result.phoneticUK || word.phoneticUK,
+                        phoneticUS: result.phoneticUS || word.phoneticUS,
+                        audioUK: result.audioUK || word.audioUK,
+                        audioUS: result.audioUS || word.audioUS
+                    });
+                } catch (error) {
+                    console.error(`      Error crawling word ${word.text}:`, error);
+                    newWords.push(word); // Keep original if failed
+                }
             }
-
-            // Respect existing manual overrides (like the one we just added for 'it')?
-            // Actually, the crawler is likely better, but let's check.
-            // If the user manually fixed 'it', we might want to keep it OR see if crawler gets it right.
-            // Let's rely on the crawler, but if it fails, fallback to existing or generate.
-
-            // Wait a bit to be nice to the server
-            await new Promise(r => setTimeout(r, 500));
-
-            const result = await crawlOxfordWord(word.text);
-
-            newExamples.push({
-                ...word,
-                phoneticUK: result.phoneticUK || word.phoneticUK,
-                phoneticUS: result.phoneticUS || word.phoneticUS,
-                audioUK: result.audioUK || word.audioUK, // Crawler result takes precedence over existing if found
-                audioUS: result.audioUS || word.audioUS
-            });
+            updatedLessons.push({ ...lesson, words: newWords });
         }
-
-        updatedPairs.push({
-            ...pair,
-            examples: newExamples
-        });
+        updatedUnits.push({ ...unit, lessons: updatedLessons });
     }
-
-    // Generate the new file content
-    // We need to format this nicely as a TS file
-    // We will assume the structure of ipa-pairs.ts and just replace the data.
-    // Or simpler: Write a new file entirely.
 
     const fileContent = `export interface Word {
   text: string;
@@ -58,20 +53,30 @@ async function updateAudio() {
   audioUS?: string;
 }
 
-export interface IPAPair {
+export type LessonType = 'single' | 'pair';
+
+export interface Lesson {
   id: string;
-  name: string;
-  sound1: string;
-  sound2: string;
+  type: LessonType;
+  title: string;
   description?: string;
-  examples: Word[];
+  sound: string;
+  targetSounds: string[];
+  words: Word[];
 }
 
-export const ipaPairs: IPAPair[] = ${JSON.stringify(updatedPairs, null, 2)};
+export interface Unit {
+  id: string;
+  title: string;
+  description?: string;
+  lessons: Lesson[];
+}
+
+export const units: Unit[] = ${JSON.stringify(updatedUnits, null, 2)};
 `;
 
-    fs.writeFileSync(path.join(__dirname, '../src/data/ipa-pairs.ts'), fileContent);
-    console.log("Done! Updated src/data/ipa-pairs.ts");
+    fs.writeFileSync(path.join(__dirname, '../src/data/units.ts'), fileContent);
+    console.log("Done! Updated src/data/units.ts");
 }
 
 updateAudio().catch(console.error);

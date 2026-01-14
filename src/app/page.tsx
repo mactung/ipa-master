@@ -1,31 +1,14 @@
 "use client";
 
 import Link from 'next/link';
-import { ipaPairs } from '@/data/ipa-pairs';
-import { Star, Trophy, Zap, ChevronRight } from 'lucide-react';
+import { units } from '@/data/units';
+import { Star, Trophy, Zap, ChevronRight, BookOpen } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 
 import { useSettings } from "@/context/SettingsContext";
 
 export default function Home() {
   const { accent, setAccent, lastPracticedUnitId, completedUnits } = useSettings();
-
-  const getSmartPracticeUnit = () => {
-    // 1. If we have a last practiced unit and it's NOT completed, resume it
-    if (lastPracticedUnitId && !completedUnits.includes(lastPracticedUnitId)) {
-      return lastPracticedUnitId;
-    }
-
-    // 2. If last unit is completed (or null), find the first uncompleted unit
-    const firstUncompleted = ipaPairs.find(p => !completedUnits.includes(p.id));
-    if (firstUncompleted) {
-      return firstUncompleted.id;
-    }
-
-    // 3. Fallback: all done? Review the first one or the last practiced one
-    return lastPracticedUnitId || ipaPairs[0].id;
-  };
-
 
   return (
     <div className="min-h-screen bg-slate-50 pb-20">
@@ -59,30 +42,12 @@ export default function Home() {
       {/* Content */}
       <div className="p-6 space-y-6">
 
-        {/* Hero Banner - Green-500 */}
-        {/* <Link
-          href={`/pair/${getSmartPracticeUnit()}`}
-          className="block bg-green-500 rounded-3xl p-6 text-white shadow-lg shadow-green-600/20 hover:translate-y-1 transition-all cursor-pointer active:translate-y-1 border-b-4 border-green-600 hover:border-b-0 active:border-b-0 active:mt-1"
-        >
-          <div className="flex items-center justify-between">
-            <div>
-              <h2 className="text-xl font-extrabold mb-1">Start Practice</h2>
-              <p className="font-bold opacity-90 text-sm">
-                {lastPracticedUnitId && !completedUnits.includes(lastPracticedUnitId)
-                  ? "Resume your session"
-                  : "Start next lesson"}
-              </p>
-            </div>
-            <Zap size={32} className="fill-current text-yellow-300" />
-          </div>
-        </Link> */}
-
         <div className="flex items-center justify-between mt-8 mb-2">
-          <h3 className="font-extrabold text-slate-700 text-lg uppercase tracking-wider">Units</h3>
+          <h3 className="font-extrabold text-slate-700 text-lg uppercase tracking-wider">Curriculum</h3>
         </div>
 
         <div className="space-y-4">
-          {ipaPairs.map((pair, index) => {
+          {units.map((unit, index) => {
             // Alternating colors for list items
             const colors = [
               'border-blue-200 bg-blue-50 text-blue-600',
@@ -92,20 +57,20 @@ export default function Home() {
             const theme = colors[index % colors.length];
 
             return (
-              <Link href={`/pair/${pair.id}`} key={pair.id} className="block group">
+              <Link href={`/unit/${unit.id}`} key={unit.id} className="block group">
                 <div className={`
                             relative bg-white rounded-3xl p-4 border-2 border-b-4 transition-all active:border-b-2 active:translate-y-[2px] 
                             ${index % 2 === 0 ? 'border-slate-200 hover:border-blue-400' : 'border-slate-200 hover:border-purple-400'}
                         `}>
                   <div className="flex items-center gap-4">
                     <div className={`w-16 h-16 rounded-2xl flex items-center justify-center text-xl font-black border-2 ${theme} shadow-sm`}>
-                      {pair.sound1}
+                      {index + 1}
                     </div>
 
                     <div className="flex-1">
-                      <h4 className="font-extrabold text-slate-700 text-lg">Unit {index + 1}</h4>
-                      <p className="text-slate-400 text-sm font-bold">
-                        /{pair.sound1}/ vs /{pair.sound2}/
+                      <h4 className="font-extrabold text-slate-700 text-lg">{unit.title}</h4>
+                      <p className="text-slate-400 text-sm font-bold flex items-center gap-1">
+                        <BookOpen size={14} /> {unit.lessons.length} Lessons
                       </p>
                     </div>
 
