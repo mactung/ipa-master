@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { Volume2, Mic, ArrowRight, X } from 'lucide-react';
-import { Word } from '@/data/ipa-pairs';
+import { Word } from '@/data/units';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
