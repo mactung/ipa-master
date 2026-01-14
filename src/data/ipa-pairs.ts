@@ -39,7 +39,7 @@ const rawPairs: IPAPair[] = [
       { text: "sheep", phoneticUK: "/ʃiːp/" },
       { text: "ship", phoneticUK: "/ʃɪp/" },
       { text: "eat", phoneticUK: "/iːt/" },
-      { text: "it", phoneticUK: "/ɪt/" },
+      { text: "it", phoneticUK: "/ɪt/", audioUK: "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/it_/it__g/it__gb_2.mp3" },
       { text: "seat", phoneticUK: "/siːt/" },
       { text: "sit", phoneticUK: "/sɪt/" },
     ],
