@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { units } from '@/data/units';
+import { getSmartPracticeUnit } from '@/lib/practiceUtils';
 import { Star, Trophy, Zap, ChevronRight, BookOpen } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 
@@ -39,8 +40,28 @@ export default function Home() {
         </div>
       </header>
 
+
+
+
       {/* Content */}
       <div className="p-6 space-y-6">
+        {/* Hero Banner - Green-500 */}
+        <Link
+          href={`/practice/${getSmartPracticeUnit(completedUnits, lastPracticedUnitId, units)}`}
+          className="block bg-green-500 rounded-3xl p-6 text-white shadow-lg shadow-green-600/20 hover:translate-y-1 transition-all cursor-pointer active:translate-y-1 border-b-4 border-green-600 hover:border-b-0 active:border-b-0 active:mt-1"
+        >
+          <div className="flex items-center justify-between">
+            <div>
+              <h2 className="text-xl font-extrabold mb-1">Start Practice</h2>
+              <p className="font-bold opacity-90 text-sm">
+                {lastPracticedUnitId && !completedUnits.includes(lastPracticedUnitId)
+                  ? "Resume your session"
+                  : "Start next lesson"}
+              </p>
+            </div>
+            <Zap size={32} className="fill-current text-yellow-300" />
+          </div>
+        </Link>
 
         <div className="flex items-center justify-between mt-8 mb-2">
           <h3 className="font-extrabold text-slate-700 text-lg uppercase tracking-wider">Curriculum</h3>
