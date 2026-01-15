@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
 import { useSettings } from '@/context/SettingsContext';
+import { useWordNotes } from '@/hooks/useWordNotes';
 
 interface PracticeSessionProps {
     words: Word[];
@@ -15,6 +16,7 @@ interface PracticeSessionProps {
 
 export default function PracticeSession({ words, lessonId }: PracticeSessionProps) {
     const { accent, setLastPracticedUnitId, markUnitComplete } = useSettings();
+    const { getNote } = useWordNotes();
 
     const router = useRouter();
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -143,6 +145,13 @@ export default function PracticeSession({ words, lessonId }: PracticeSessionProp
                         {status === 'waiting' && <span>Next...</span>}
                     </div>
                 </div>
+
+                {/* User Note Display */}
+                {getNote(currentWord.text) && (
+                    <div className="mb-6 bg-yellow-50 border border-yellow-200 text-slate-600 px-4 py-2 rounded-xl text-center font-medium italic max-w-xs animate-in fade-in slide-in-from-bottom-2">
+                        "{getNote(currentWord.text)}"
+                    </div>
+                )}
 
                 {/* Speed Controls */}
                 <div className="flex gap-2 mb-6">
