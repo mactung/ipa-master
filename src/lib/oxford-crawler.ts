@@ -9,7 +9,7 @@ interface CrawlResult {
 
 export async function crawlOxfordWord(word: string): Promise<CrawlResult> {
     try {
-        const url = `https://www.oxfordlearnersdictionaries.com/definition/english/${word}_1?q=${word}`;
+        const url = `https://www.oxfordlearnersdictionaries.com/definition/english/${word.toLocaleLowerCase()}?q=${word.toLocaleLowerCase()}`;
         const response = await fetch(url, {
             headers: {
                 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
